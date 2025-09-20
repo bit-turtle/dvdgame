@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dvdstyler format="4" outputDir="/home/hz7/dvd" name="DVD" videoFormat="3" audioFormat="3" aspectRatio="2">
+  <!--************** VMGM **************-->
+  <vmgm>
+    <menus>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <subpicture lang="EN"/>
+      <!--************** MENU 1 **************-->
+      <pgc entry="title">
+        <vob>
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="10">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="dvdgame.png"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <rect x="10" y="50%" width="10" height="10" id="square" style="fill:#000000;" transform="translate(0,-5)"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#000000;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;font-family:Sans;font-size:26;font-style:normal;font-weight:normal;text-anchor:;text-decoration:none;">Game 1</text>
+                  </g>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <rect x="10" y="50%" width="10" height="10" id="square" style="fill:#000000;" transform="translate(0,-5)"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#000000;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;font-family:Sans;font-size:26;font-style:normal;font-weight:normal;text-anchor:;text-decoration:none;">Game 2</text>
+                  </g>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="132" y="120" width="144" height="30" id="button01" xlink:href="#s_button01"/>
+                <use x="132" y="164" width="144" height="30" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01">
+              <action tsi="0" pgci="0"/>
+              <filename>text-square-v2.xml</filename>
+              <parameter name="squareFill" normal="#000000" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02">
+              <action tsi="0" pgci="15"/>
+              <filename>text-square-v2.xml</filename>
+              <parameter name="squareFill" normal="#000000" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <pre>g0 = 0; g1 = 0;</pre>
+        <post>jump cell 1;</post>
+      </pgc>
+    </menus>
+  </vmgm>
+  <!--************** TITLESET 1 **************-->
+  <titleset>
+    <menus>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <subpicture lang="EN"/>
+      <!--************** MENU 1 **************-->
+      <pgc entry="root">
+        <vob pause="1">
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="10">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="dpadopen.png"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <rect x="10" y="50%" width="10" height="10" id="square" style="fill:#ffffff;" transform="translate(0,-5)"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" style="dominant-baseline:middle;font-family:Sans;font-size:26;font-style:normal;font-weight:normal;text-anchor:;text-decoration:none;"/>
+                  </g>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <rect x="10" y="50%" width="10" height="10" id="square" style="fill:#ffffff;" transform="translate(0,-5)"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" style="dominant-baseline:middle;font-family:Sans;font-size:26;font-style:normal;font-weight:normal;text-anchor:;text-decoration:none;"/>
+                  </g>
+                </svg>
+                <svg id="s_button03">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <rect x="10" y="50%" width="10" height="10" id="square" style="fill:#ffffff;" transform="translate(0,-5)"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" style="dominant-baseline:middle;font-family:Sans;font-size:26;font-style:normal;font-weight:normal;text-anchor:;text-decoration:none;"/>
+                  </g>
+                </svg>
+                <svg id="s_button04">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <rect x="10" y="50%" width="10" height="10" id="square" style="fill:#ffffff;" transform="translate(0,-5)"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;fill-opacity:1;">
+                    <text x="30" y="50%" id="text" style="dominant-baseline:middle;font-family:Sans;font-size:26;font-style:normal;font-weight:normal;text-anchor:;text-decoration:none;"/>
+                  </g>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="220" y="188" width="38" height="8" id="button01" xlink:href="#s_button01"/>
+                <use x="336" y="304" width="38" height="8" id="button02" xlink:href="#s_button02"/>
+                <use x="456" y="196" width="38" height="8" id="button03" xlink:href="#s_button03"/>
+                <use x="332" y="84" width="38" height="8" id="button04" xlink:href="#s_button04"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action pgci="7"/>
+              <direction right="button03" up="button04" down="button02"/>
+              <filename>text-square-v2.xml</filename>
+              <parameter name="squareFill" normal="#ffffff" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action pgci="5"/>
+              <direction left="button01" right="button03" up="button04"/>
+              <filename>text-square-v2.xml</filename>
+              <parameter name="squareFill" normal="#ffffff" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button03" defSize="true">
+              <action pgci="3"/>
+              <direction left="button01" up="button04" down="button02"/>
+              <filename>text-square-v2.xml</filename>
+              <parameter name="squareFill" normal="#ffffff" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button04" defSize="true">
+              <action pgci="1"/>
+              <direction left="button01" right="button03" down="button02"/>
+              <filename>text-square-v2.xml</filename>
+              <parameter name="squareFill" normal="#ffffff" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>if (g0 == 0) { g0 = 1; g1 = g1 + 1; g12 = 0; jump title 5; } else if (g0 == 1) { g0 = 2; g12 = g12 + 1; jump title 7; } else if (g0 == 2) { if (g12 == g1) { g0 = 3; g12 = 1; } else g0 = 1; if (g11 == 1) jump title 1; else if (g11 == 2) jump title 2; else if (g11 == 3) jump title 3; else if (g11 == 4) jump title 4;} else if (g0 == 3) { g0 = 4; g12 = 1; } else if (g0 == 4) { if (g12 &gt; g1)  g0 = 0; } jump cell 1;</post>
+      </pgc>
+    </menus>
+    <titles>
+      <video format="ntsc" aspect="16:9" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <!--************** TITLE 1 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadup.png"/>
+          </slideshow>
+        </vob>
+        <post>if (g0 == 4) { g9 = 1; jump title 7; } else call menu;</post>
+      </pgc>
+      <!--************** TITLE 2 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadright.png"/>
+          </slideshow>
+        </vob>
+        <post>if (g0 == 4) { g9 = 2; jump title 7; } else call menu;</post>
+      </pgc>
+      <!--************** TITLE 3 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpaddown.png"/>
+          </slideshow>
+        </vob>
+        <post>if (g0 == 4) { g9 = 3; jump title 7; } else call menu;</post>
+      </pgc>
+      <!--************** TITLE 4 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadleft.png"/>
+          </slideshow>
+        </vob>
+        <post>if (g0 == 4) { g9 = 4; jump title 7; } else call menu;</post>
+      </pgc>
+      <!--************** TITLE 5 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="1" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadscore.png"/>
+          </slideshow>
+        </vob>
+        <post>if (g1 == 1) g2 = random(4); if (g1 == 2) g3 = random(4); if (g1 == 3) g4 = random(4); if (g1 == 4) g5 = random(4); if (g1 == 5) g6 = random(4); if (g1 == 6) g7 = random(4); if (g1 == 7) g8 = random(4); call menu;</post>
+      </pgc>
+      <!--************** TITLE 6 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadwin.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 7 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="1" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadopen.png"/>
+          </slideshow>
+        </vob>
+        <post>if (g12 == 1) g11 = g2; if (g12 == 2) g11 = g3; if (g12 == 3) g11 = g4; if (g12 == 4) g11 = g5; if (g12 == 5) g11 = g6; if (g12 == 6) g11 = g7; if (g12 == 7) g11 = g8; if (g12 == 8) g11 = g9; if (g0 == 4) jump title 17; else if (g12 == 9)  jump title 6; call menu;</post>
+      </pgc>
+      <!--************** TITLE 8 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadwrong.png"/>
+          </slideshow>
+        </vob>
+        <pre>if (g1 == 1) jump title 9; if (g1 == 2) jump title 10; if (g1 == 3) jump title 11; if (g1 == 4) jump title 12; if (g1 == 5) jump title 13; if (g1 == 6) jump title 14; if (g1 == 7)  jump title 15; jump title 16;</pre>
+      </pgc>
+      <!--************** TITLE 9 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadgame1.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 10 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadgame2.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 11 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadgame3.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 12 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadgame4.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 13 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadgame5.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 14 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadgame6.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 15 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpadgame7.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 16 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpaderror.png"/>
+          </slideshow>
+        </vob>
+        <post>call vmgm menu 1;</post>
+      </pgc>
+      <!--************** TITLE 17 **************-->
+      <pgc>
+        <vob>
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+            <slide filename="/home/hz7/dvdgame/dpaddot.png"/>
+          </slideshow>
+        </vob>
+        <pre>g12 = g12+1; if (g12 &gt; g1) { g12 = 0; g0 = 0; } if (g11 != g9) jump title 8;</pre>
+        <post>call menu;</post>
+      </pgc>
+    </titles>
+  </titleset>
+</dvdstyler>
