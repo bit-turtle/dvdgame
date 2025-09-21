@@ -576,7 +576,7 @@
             </button>
           </menu>
         </vob>
-        <post>g1 = random(2); if (g1 == 2) jump menu 15; jump menu 9;</post>
+        <post>g1 = random(2); if (g1 == 2) jump menu 14; jump menu 9;</post>
       </pgc>
       <!--************** MENU 8 **************-->
       <pgc>
@@ -620,7 +620,7 @@
               </g>
             </svg>
             <button id="button01" defSize="true">
-              <action>g1 = random(2); if (g1 == 2) jump menu 24; jump menu 12;</action>
+              <action>g1 = random(2); if (g1 == 2) jump menu 20; jump menu 12;</action>
               <filename>text-underlined-v3.xml</filename>
               <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
             </button>
@@ -661,7 +661,7 @@
             </button>
           </menu>
         </vob>
-        <post>g1 = random(2); if (g1 == 2) jump menu 21; jump menu 11;</post>
+        <post>g1 = random(2); if (g1 == 2) jump menu 19; jump menu 11;</post>
       </pgc>
       <!--************** MENU 11 **************-->
       <pgc>
@@ -690,7 +690,7 @@
               </g>
             </svg>
             <button id="button01" defSize="true">
-              <action>g1 = random(2); if (g1 == 2) jump menu 23; jump menu 13;</action>
+              <action>g1 = random(2); if (g1 == 2) jump menu 22; jump menu 13;</action>
               <filename>text-underlined-v3.xml</filename>
               <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
             </button>
@@ -805,7 +805,7 @@
               </g>
             </svg>
             <button id="button01" defSize="true">
-              <action>g1 = random(2); if (g1 == 2) jump menu 21; jump menu 18;</action>
+              <action>g1 = random(2); if (g1 == 2) jump menu 23; jump menu 18;</action>
               <filename>text-underlined-v3.xml</filename>
               <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
             </button>
@@ -841,7 +841,7 @@
             </svg>
           </menu>
         </vob>
-        <post>g1 = random(2); if (g1 == 2) jump menu 16; jump menu 11;</post>
+        <post>g1 = random(2); if (g1 == 2) jump menu 19; jump menu 11;</post>
       </pgc>
       <!--************** MENU 19 **************-->
       <pgc>
@@ -870,17 +870,32 @@
               </g>
             </svg>
             <button id="button01" defSize="true">
-              <action>g0 = 2;</action>
+              <action pgci="40"/>
               <filename>text-underlined-v3.xml</filename>
               <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
             </button>
           </menu>
         </vob>
-        <pre>if (g0 == 2) { g0 = 1; jump menu 4; }</pre>
+        <post>jump title 1;</post>
       </pgc>
       <!--************** MENU 20 **************-->
       <pgc>
-        <vob pause="inf">
+        <vob pause="2">
+          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
+            <svg width="720" height="405">
+              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="dinoj41.png"/>
+              <defs id="defs"/>
+              <g id="objects"/>
+              <g id="buttons"/>
+            </svg>
+          </menu>
+        </vob>
+        <post>jump title 1;</post>
+      </pgc>
+      <!--************** MENU 21 **************-->
+      <pgc>
+        <vob pause="2">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -891,59 +906,9 @@
             </svg>
           </menu>
         </vob>
-      </pgc>
-      <!--************** MENU 21 **************-->
-      <pgc>
-        <vob pause="2">
-          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
-            <svg width="720" height="405">
-              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
-              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="dinoj531.png"/>
-              <defs id="defs"/>
-              <g id="objects"/>
-              <g id="buttons"/>
-            </svg>
-          </menu>
-        </vob>
-        <post>jump menu 16;</post>
+        <post>g1 = random(2); if (g1 == 2) jump menu 14; jump menu 9;</post>
       </pgc>
       <!--************** MENU 22 **************-->
-      <pgc>
-        <vob pause="2">
-          <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
-            <svg width="720" height="405">
-              <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
-              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="dinog41.png"/>
-              <defs id="defs">
-                <svg id="s_button01">
-                  <defs>
-                    <filter id="shadowFilter">
-                      <feGaussianBlur stdDeviation="3"/>
-                    </filter>
-                  </defs>
-                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
-                  <g id="gText" style="fill:#ffffff;">
-                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#000000;fill-opacity:1;font-family:Sans;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Jump</text>
-                  </g>
-                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
-                </svg>
-              </defs>
-              <g id="objects"/>
-              <g id="buttons">
-                <use x="48" y="340" width="71" height="31" id="button01" xlink:href="#s_button01"/>
-              </g>
-            </svg>
-            <button id="button01" defSize="true">
-              <action>g0 = 2;</action>
-              <filename>text-underlined-v3.xml</filename>
-              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
-            </button>
-          </menu>
-        </vob>
-        <pre>if (g0 == 2) { g0 = 1; jump menu 22; }</pre>
-        <post>jump title 1;</post>
-      </pgc>
-      <!--************** MENU 23 **************-->
       <pgc>
         <vob pause="2">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
@@ -958,20 +923,20 @@
         </vob>
         <post>jump menu 7;</post>
       </pgc>
-      <!--************** MENU 24 **************-->
+      <!--************** MENU 23 **************-->
       <pgc>
         <vob pause="2">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
-              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="dinoj41.png"/>
+              <image width="720" height="405" preserveAspectRatio="none" id="background" xlink:href="dinoj531.png"/>
               <defs id="defs"/>
               <g id="objects"/>
               <g id="buttons"/>
             </svg>
           </menu>
         </vob>
-        <post>jump title 1;</post>
+        <post>jump menu 16;</post>
       </pgc>
     </menus>
     <titles>
