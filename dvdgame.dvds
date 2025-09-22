@@ -8,7 +8,7 @@
       <subpicture lang="EN"/>
       <!--************** MENU 1 **************-->
       <pgc entry="title">
-        <vob>
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="10">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -70,7 +70,7 @@
       <subpicture lang="EN"/>
       <!--************** MENU 1 **************-->
       <pgc entry="root">
-        <vob pause="1">
+        <vob>
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="10">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -168,7 +168,7 @@
       <!--************** TITLE 1 **************-->
       <pgc>
         <vob>
-          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="1" transition="fade.xml">
             <slide filename="/home/hz7/dvdgame/dpadup.png"/>
           </slideshow>
         </vob>
@@ -177,7 +177,7 @@
       <!--************** TITLE 2 **************-->
       <pgc>
         <vob>
-          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="1" transition="fade.xml">
             <slide filename="/home/hz7/dvdgame/dpadright.png"/>
           </slideshow>
         </vob>
@@ -186,7 +186,7 @@
       <!--************** TITLE 3 **************-->
       <pgc>
         <vob>
-          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="1" transition="fade.xml">
             <slide filename="/home/hz7/dvdgame/dpaddown.png"/>
           </slideshow>
         </vob>
@@ -195,7 +195,7 @@
       <!--************** TITLE 4 **************-->
       <pgc>
         <vob>
-          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="1" transition="fade.xml">
             <slide filename="/home/hz7/dvdgame/dpadleft.png"/>
           </slideshow>
         </vob>
@@ -303,7 +303,7 @@
       <!--************** TITLE 16 **************-->
       <pgc>
         <vob>
-          <slideshow videoFormat="NTSC" aspectRatio="2" duration="5" transition="fade.xml">
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
             <slide filename="/home/hz7/dvdgame/dpaderror.png"/>
           </slideshow>
         </vob>
@@ -321,7 +321,7 @@
       <!--************** TITLE 18 **************-->
       <pgc>
         <vob>
-          <slideshow videoFormat="NTSC" aspectRatio="2" duration="2" transition="fade.xml">
+          <slideshow videoFormat="NTSC" aspectRatio="2" duration="1" transition="fade.xml">
             <slide filename="/home/hz7/dvdgame/dpaddot.png"/>
           </slideshow>
         </vob>
@@ -338,7 +338,7 @@
       <subpicture lang="EN"/>
       <!--************** MENU 1 **************-->
       <pgc entry="root">
-        <vob>
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -392,7 +392,7 @@
       </pgc>
       <!--************** MENU 2 **************-->
       <pgc>
-        <vob>
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -445,7 +445,7 @@
       </pgc>
       <!--************** MENU 3 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -480,7 +480,7 @@
       </pgc>
       <!--************** MENU 4 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -495,7 +495,7 @@
       </pgc>
       <!--************** MENU 5 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -530,7 +530,7 @@
       </pgc>
       <!--************** MENU 6 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -545,7 +545,7 @@
       </pgc>
       <!--************** MENU 7 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -580,7 +580,7 @@
       </pgc>
       <!--************** MENU 8 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -595,7 +595,7 @@
       </pgc>
       <!--************** MENU 9 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -630,7 +630,7 @@
       </pgc>
       <!--************** MENU 10 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -665,7 +665,7 @@
       </pgc>
       <!--************** MENU 11 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -700,7 +700,7 @@
       </pgc>
       <!--************** MENU 12 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -715,7 +715,7 @@
       </pgc>
       <!--************** MENU 13 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -730,7 +730,7 @@
       </pgc>
       <!--************** MENU 14 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -765,7 +765,7 @@
       </pgc>
       <!--************** MENU 15 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -780,7 +780,7 @@
       </pgc>
       <!--************** MENU 16 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -815,7 +815,7 @@
       </pgc>
       <!--************** MENU 17 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -830,7 +830,7 @@
       </pgc>
       <!--************** MENU 18 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -845,7 +845,7 @@
       </pgc>
       <!--************** MENU 19 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -880,7 +880,7 @@
       </pgc>
       <!--************** MENU 20 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -895,7 +895,7 @@
       </pgc>
       <!--************** MENU 21 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -910,7 +910,7 @@
       </pgc>
       <!--************** MENU 22 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
@@ -925,7 +925,7 @@
       </pgc>
       <!--************** MENU 23 **************-->
       <pgc>
-        <vob pause="2">
+        <vob pause="1">
           <menu videoFormat="NTSC" aspectRatio="2" rememberLastButton="12">
             <svg width="720" height="405">
               <rect width="720" height="405" id="backgroundColour" style="fill:#000000;"/>
