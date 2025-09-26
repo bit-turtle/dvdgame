@@ -1,1 +1,1 @@
-*.dvds linguist-language=XML
+*.dvds linguist-language=XML linguist-detectable=true
